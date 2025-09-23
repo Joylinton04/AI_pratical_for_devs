@@ -1,4 +1,3 @@
-import express from 'express'
 import type { Request, Response } from 'express'
 import z from 'zod'
 import { chatService } from '../services/chat.service'

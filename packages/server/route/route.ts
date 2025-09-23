@@ -8,6 +8,6 @@ chatRoute.get('/', (req: Request, res: Response) => {
     res.send("Hello")
 })
 
-chatRoute.post('/api/chat', chatController.sendMessage)
+chatRoute.post('/', chatController.sendMessage)
 
 export default chatRoute;
